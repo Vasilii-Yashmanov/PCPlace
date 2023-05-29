@@ -1,0 +1,71 @@
+/* Основные стили */
+body {
+    background-color: #F8F8F8;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+a.category-link {
+    text-decoration: none;
+}
+/* Стили навигации */
+.navbar {
+    background-color: #FFA500;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+}
+
+/* Стили категорий */
+.category-card {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFA500;
+    margin-bottom: 10px;
+}
+
+.category-image {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

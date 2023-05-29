@@ -1,0 +1,71 @@
+/* Основные стили */
+body {
+    background-color: #F8F8F8;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+/* Стили навигации */
+.navbar {
+    background-color: #FFA500;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+}
+
+/* Стили для страницы оформления заказа */
+
+.custom-container {
+    color: #FFA500;
+    padding: 50px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.custom-heading {
+    color: #FFA500;
+}
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-list-item {
+    margin-bottom: 10px;
+}
+
+.custom-paragraph {
+    margin: 0;
+}
+
+div.custom-container p {
+    color: #000000;
+    font-size: 20px;
+}
+
+div.custom-container h1 {
+    margin-right: 20px;
+}
+

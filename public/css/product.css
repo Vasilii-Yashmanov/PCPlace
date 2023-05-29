@@ -1,0 +1,115 @@
+/* Основные стили */
+body {
+    background-color: #F8F8F8;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+h1.category {
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+/* Стили навигации */
+.navbar {
+    background-color: #FFA500;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+}
+
+/* Стили продукта */
+.product-card {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    max-width: 500px;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFA500;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.product-button {
+    margin-top: 10px;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-info {
+    margin-left: 100px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.product-button {
+    margin-top: 10px;
+    background-color: #FFA500;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #FF8000;
+}
