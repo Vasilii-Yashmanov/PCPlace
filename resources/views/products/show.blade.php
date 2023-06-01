@@ -16,7 +16,7 @@
                     <h2 class="product-name">{{ $product->name }}</h2>
                     <img class="product-image" src="{{ $product->img }}" alt="{{ $product->name }}">
                     <p class="product-price">{{ $product->price }} Руб.</p>
-                    <a href="{{ route('product.show', ['alias' => $category->alias, 'product' => $product->id]) }}" class="product-button">Купить</a>
+                    <a href="{{ route('product.show', ['alias' => $category->alias, 'product' => $product->id]) }}" class="product-button">Подробнее</a>
                 </div>
             </div>
         @endforeach
